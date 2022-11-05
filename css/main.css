@@ -1,0 +1,316 @@
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #00afd7;
+    overflow-x: hidden;
+}
+
+.logo 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#wrapper 
+{
+    background-color: #FFF;
+    box-shadow: 2px 2px 2px 2px #888b8d;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2048px;
+    min-width: 960px;
+    width: 65%;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+nav 
+{
+    background-color: #c4d600;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 4px 4px 4px #888b8d;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li 
+{
+    list-style-type: none;
+    display: inline-block
+}
+nav a 
+{
+    padding: 18px;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #888b8d;
+}
+
+nav a:hover
+{
+    color: #FFF;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1 
+{
+    width: 90%;
+    background-color:  #00afd7;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-size: 55px;
+}
+
+h2 
+{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    font-size: 35px;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.two
+{
+    padding-top: 10px;
+}
+
+.btn-pickup
+{
+    background-color: #c4d600;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 450px;
+    height: 80px;
+
+}
+
+.btn-pickup:hover
+{
+    background-color: #b0c002;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btn-pickup-home
+{
+    background-color: #c4d600;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 450px;
+    height: 80px;
+
+}
+
+.btn-pickup-home:hover
+{
+    background-color: #b0c002;
+    text-shadow: 1px 1px 1px black;
+}
+
+.donations
+{
+    margin: 10px 0px 60px 60px;
+}
+
+.items, .btn-pickup
+{
+    margin: 0px 60px 10px 0px;
+}
+
+.donations, .items
+{
+    border-style: solid;
+    border-color: #dbdada;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.items
+{
+    margin-top: 10px;
+}
+
+.donation-info
+{
+    color: #464747;
+    text-align: left;
+    padding: 10px 60px 10px 60px;
+    font-size: 17px;
+}
+
+.diagram 
+{
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.contact 
+{
+    border-style: solid;
+    border-color: #b8c903;
+    border-radius: 12px;
+    background-color: #b8c903;
+    width: 700px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.heart
+{
+    margin-top: 25px;
+}
+
+.address, .phone
+{
+    margin-top: 35px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.address a, .phone a 
+{
+    color: #FFF;
+}
+
+.address
+{
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.phone
+{
+    margin-right: 15px;
+}
+
+.stories
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.social
+{
+   margin: 20px 0px 20px 400px;
+}
+
+.copyright
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.picture 
+{
+    width: 400px;  
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.video
+{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+}
+
+.btn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.banner
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.new
+{
+    border-style: solid;
+    border-color: #dbdada;
+    border-radius: 25px;
+    color: #464747;
+    text-align: left;
+    font-size: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 20px;
+}
+
+.news
+{
+    padding-bottom: 40px;
+}
+
+.float-left
+{
+    width: 200px;
+    padding-right: 20px;
+}
+
+.contact
+{
+    margin-bottom: 80px;
+}
+
+.pic
+{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.ptwo, .float-left
+{
+    padding-top: 20px;
+}
